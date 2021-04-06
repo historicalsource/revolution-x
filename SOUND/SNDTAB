@@ -1,0 +1,1353 @@
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 1
+
+
+ROM Table
+
+ROM Name  Checksum  Size    Space Remaining
+--------  --------  ------  ---------------
+U2.ROM    $4400     512 kB   26 kB (5%)
+U3.ROM    $4600     512 kB   MASKED
+U4.ROM    $3500     512 kB   MASKED
+U5.ROM    $0E00     512 kB   MASKED
+U6.ROM    $4300     512 kB   MASKED
+U7.ROM    $7200     512 kB   MASKED
+U8.ROM    $A100     512 kB   MASKED
+U9.ROM    $CE00     512 kB   MASKED
+
+
+Sound Call Table
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+0        ($0000)  0          0.4      0.5   SYSTEM           kill sound on all tracks
+1        ($0001)  0            -        -   MUSIC new rock groove for the club
+2        ($0002)  0            -        -   MUSIC basic groove: rave drums
+3        ($0003)  0            -        -   MUSIC mondor battle
+4        ($0004)  0            -        -   MUSIC Jungle Battle
+5        ($0005)  0            -        -   MUSIC mondor battle
+6        ($0006)  0            -        -   MUSIC in front of the wall guitar groove
+7        ($0007)  0            -        -   MUSIC in front of the club rock groove
+8        ($0008)  0            -        -   MUSIC new rock groove for the club
+9        ($0009)  0            -        -   MUSIC driving/flying groove
+10       ($000a)  0            -        -   MUSIC Germany: Toys in the Attic instr.
+11       ($000b)  0            -        -   MUSIC Eat the Rich start at chorus
+12       ($000c)  0            -        -   MUSIC Eat the Rich (without 19)
+13       ($000d)  0            -        -   MUSIC Amazon wave: jungle groove #1
+14       ($000e)  0            -        -   MUSIC Japan Factory: factory proper
+15       ($000f)  0            -        -   MUSIC Japan Factory: r & d lab
+16       ($0010)  0            -        -   MUSIC Amazon wave: jungle groove #2
+17       ($0011)  0            -        -   MUSIC Evergreen Chemical groove #1
+18       ($0012)  0            -        -   MUSIC Eat the Rich (fat version)
+19       ($0013)  1        211.0    241.9   MUSIC in the auditorium, track 1
+20       ($0014)  0            -        -   MUSIC Eat the Rich intro
+21       ($0015)  0            -        -   MUSIC Japan: new crates music
+22       ($0016)  0        407.3    467.0   MUSIC Japan: crates fade out on track 1
+23       ($0017)  0            -        -   MUSIC JUNGLE: group fly buzz groove
+24       ($0018)  0            -        -   MUZAK Love in an Elevator
+25       ($0019)  0            -        -   MUSIC bonus rack bg (sweet emotion)
+26       ($001a)  0            -        -   MUSIC FINALE: walk this way
+27       ($001b)  0            -        -   MUSIC Japan: X-fade from crates to factory
+28       ($001c)  0      MARKED MUSIC Japan: X-fade from crates to factory
+29       ($001d)  0            -        -   MUSIC bonus rack bg (sweet emotion)
+30       ($001e)  0      MARKED MUSIC bonus rack bg (sweet emotion)
+31       ($001f)  0            -        -   MUSIC sweet emotion no vocal
+32       ($0020)  0            -        -   MUSIC sweet emotion vocal
+33       ($0021)  0      MARKED MUSIC sweet emotion vocal
+34       ($0022)  0      MARKED MUSIC Jungle Battle
+35       ($0023)  0      MARKED MUSIC JUNGLE: group fly buzz groove
+36       ($0024)  0            -        -   MUSIC FINALE: walk this way beginning
+37       ($0025)  0            -        -   MUSIC FINALE: walk this way middle & end
+38       ($0026)  0      MARKED MUSIC FINALE: walk this way middle & end
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 2
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+
+64       ($0040)  3            -        -   JUNGLE BG jungle noises bg (endless)
+65       ($0041)  3        110.9    127.2   JUNGLE BG ends
+
+96       ($0060)  3        150.7    172.8   JAPAN arc lit (ducks track 0)
+97       ($0061)  3        293.0    336.0   JAPAN award the arc (ducks track 0)
+98       ($0062)  3        268.7    308.2   NOMAZON JP launches, morphs(ducks music)
+99       ($0063)  3        212.6    243.8   GENERAL (all) morph into wings (ducks music)
+
+146      ($0092)  3            -        -   BONUS modem tone (loop)
+147      ($0093)  3            -        -   BONUS modem connecting noise (loop)
+148      ($0094)  3            -        -   BONUS tty data click (loop)
+149      ($0095)  3        498.9    572.2   BONUS scroll bonus up into players score
+150      ($0096)  3        496.0    568.8   BONUS scroll bonus down into players score
+151      ($0097)  3         82.9     95.0   BONUS end scroll up
+152      ($0098)  3        111.3    127.7   BONUS end scroll down
+153      ($0099)  3          4.6      5.3   CAR deactivate car alarm (repeat twice)
+154      ($009a)  2        139.0    159.4   BONUS bonus screen wipes on or off
+155      ($009b)  2         35.2     40.3   BONUS increment bonus multiplier
+156      ($009c)  2        128.5    147.4   BONUS final bonus multiplier
+
+256      ($0100)  1         17.2     19.7   AK47 enemy gun 1 
+257      ($0101)  2         17.2     19.7   AK47 enemy gun 1 
+258      ($0102)  3         17.2     19.7   AK47 enemy gun 1 
+259      ($0103)  1         38.5     44.2   M1 enemy gun 2 
+260      ($0104)  2         38.5     44.2   M1 enemy gun 2 
+261      ($0105)  3         38.5     44.2   M1 enemy gun 2 
+262      ($0106)  1         82.0     94.1   357 magnum enemy gun 3 
+263      ($0107)  2         82.0     94.1   357 magnum enemy gun 3 
+264      ($0108)  3         82.0     94.1   357 magnum enemy gun 3 
+265      ($0109)  1         47.7     54.7   enemy gun 4 
+266      ($010a)  2         47.7     54.7   enemy gun 4 
+267      ($010b)  3         47.7     54.7   enemy gun 4 
+268      ($010c)  1         20.9     24.0   Dozer Gun 
+269      ($010d)  2         20.9     24.0   Dozer Gun
+270      ($010e)  3         20.9     24.0   Dozer Gun 
+271      ($010f)  1         29.7     34.1   clank1, track 1
+272      ($0110)  2         29.7     34.1   clank1, track 2
+273      ($0111)  3         29.7     34.1   clank1, track 3
+
+286      ($011e)  1         29.7     34.1   clank6, track 1
+287      ($011f)  2         29.7     34.1   clank6, track 2
+288      ($0120)  3         29.7     34.1   clank6, track 3
+289      ($0121)  1         29.7     34.1   clank7, track 1
+290      ($0122)  2         29.7     34.1   clank7, track 2
+291      ($0123)  3         29.7     34.1   clank7, track 3
+292      ($0124)  1         60.3     69.1   BATHROOM metal cruch hi: rocket soap dispenser
+293      ($0125)  2         60.3     69.1   BATHROOM metal cruch hi: rocket soap dispenser
+294      ($0126)  3         60.3     69.1   BATHROOM metal cruch hi: rocket soap dispenser
+295      ($0127)  1         85.4     97.9   BATHROOM ceramic crash: rocket sink or toilet
+296      ($0128)  2         85.4     97.9   BATHROOM ceramic crash: rocket sink or toilet
+297      ($0129)  3         85.4     97.9   BATHROOM ceramic crash: rocket sink or toilet
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 3
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+298      ($012a)  1         53.6     61.4   BATHROOM soap dispenser dispenses
+299      ($012b)  2         53.6     61.4   BATHROOM soap dispenser dispenses
+300      ($012c)  3         53.6     61.4   BATHROOM soap dispenser dispenses
+301      ($012d)  1         71.6     82.1   BATHROOM soap dispenser gives it all up
+302      ($012e)  2         71.6     82.1   BATHROOM soap dispenser gives it all up
+303      ($012f)  3         71.6     82.1   BATHROOM soap dispenser gives it all up
+304      ($0130)  1         49.4     56.6   BATHROOM metal clang hi - bullet against s.d.
+305      ($0131)  2         49.4     56.6   BATHROOM metal clang hi - bullet against s.d.
+306      ($0132)  3         49.4     56.6   BATHROOM metal clang hi - bullet against s.d.
+307      ($0133)  1         56.9     65.3   BATHROOM metal clang med. bullet against dryer
+308      ($0134)  2         56.9     65.3   BATHROOM metal clang med. bullet against dryer
+309      ($0135)  3         56.9     65.3   BATHROOM metal clang med. bullet against dryer
+310      ($0136)  1         59.9     68.6   BATHROOM metal clang med. lo - bullet stall door
+311      ($0137)  2         59.9     68.6   BATHROOM metal clang med. lo - bullet stall door
+312      ($0138)  3         59.9     68.6   BATHROOM metal clang med. lo - bullet stall door
+313      ($0139)  1         74.9     85.9   BATHROOM metal clang lo - slam bathroom door?
+314      ($013a)  2         74.9     85.9   BATHROOM metal clang lo - slam bathroom door?
+315      ($013b)  3         74.9     85.9   BATHROOM metal clang lo - slam bathroom door?
+316      ($013c)  1         44.8     51.4   BATHROOM ceramic ding - bullet to sink/toilet
+317      ($013d)  2         44.8     51.4   BATHROOM ceramic ding - bullet to sink/toilet
+318      ($013e)  3         44.8     51.4   BATHROOM ceramic ding - bullet to sink/toilet
+319      ($013f)  1         39.3     45.1   BATHROOM metal ding #1- faucet
+320      ($0140)  2         39.3     45.1   BATHROOM metal ding #1- faucet
+321      ($0141)  3         39.3     45.1   BATHROOM metal ding #1- faucet
+322      ($0142)  1         38.5     44.2   BATHROOM metal ding #2 - pipe
+323      ($0143)  2         38.5     44.2   BATHROOM metal ding #2 - pipe
+324      ($0144)  3         38.5     44.2   BATHROOM metal ding #2 - pipe
+325      ($0145)  1         59.9     68.6   BATHROOM metal crunch med: rocket dryer
+326      ($0146)  2         59.9     68.6   BATHROOM metal crunch med: rocket dryer
+327      ($0147)  3         59.9     68.6   BATHROOM metal crunch med: rocket dryer
+328      ($0148)  1         68.6     78.7   BATHROOM metal crunch lo: rocket stall door
+329      ($0149)  2         68.6     78.7   BATHROOM metal crunch lo: rocket stall door
+330      ($014a)  3         68.6     78.7   BATHROOM metal crunch lo: rocket stall door
+331      ($014b)  1         63.6     73.0   BATHROOM nonboy shits & plops
+332      ($014c)  2         63.6     73.0   BATHROOM nonboy shits & plops
+333      ($014d)  3         63.6     73.0   BATHROOM nonboy shits & plops
+334      ($014e)  1        129.8    148.8   BATHROOM toilet flush
+335      ($014f)  2        129.8    148.8   BATHROOM toilet flush
+336      ($0150)  3        129.8    148.8   BATHROOM toilet flush
+337      ($0151)  3            -        -   BATHROOM start fountain BG
+338      ($0152)  3            -        -   BATHROOM restore fountain BG
+339      ($0153)  3            -        -   BATHROOM start sink faucet BG
+340      ($0154)  3            -        -   BATHROOM start sink faucet BG
+341      ($0155)  1         79.5     91.2   BATHROOM splash: rocket toilet/sink
+342      ($0156)  2         79.5     91.2   BATHROOM splash: rocket toilet/sink
+343      ($0157)  3         79.5     91.2   BATHROOM splash: rocket toilet/sink
+344      ($0158)  1         30.6     35.0   BATHROOM toilet paper hit
+345      ($0159)  2         30.6     35.0   BATHROOM toilet paper hit
+346      ($015a)  3         30.6     35.0   BATHROOM toilet paper hit
+347      ($015b)  1         81.6     93.6   BATHROOM toilet handle boing
+348      ($015c)  2         81.6     93.6   BATHROOM toilet handle boing
+349      ($015d)  3         81.6     93.6   BATHROOM toilet handle boing
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 4
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+350      ($015e)  1         33.9     38.9   BATHROOM shoot toilet seat
+351      ($015f)  2         33.9     38.9   BATHROOM shoot toilet seat
+352      ($0160)  3         33.9     38.9   BATHROOM shoot toilet seat
+353      ($0161)  1        276.2    316.8   coins bounce (overlap w/ 859-861)
+354      ($0162)  2        276.2    316.8   coins bounce (overlap w/ 859-861)
+355      ($0163)  3        276.2    316.8   coins bounce (overlap w/ 859-861)
+356      ($0164)  1         47.3     54.2   BATHROOM toilet seat falls back
+357      ($0165)  2         47.3     54.2   BATHROOM toilet seat falls back
+358      ($0166)  3         47.3     54.2   BATHROOM toilet seat falls back
+359      ($0167)  3        129.3    148.3   guitar slide up: hit directional
+360      ($0168)  1         85.4     97.9   guitar damage
+361      ($0169)  2         85.4     97.9   guitar damage
+362      ($016a)  3         85.4     97.9   guitar damage
+363      ($016b)  1         35.6     40.8   BAR shatter a bottle
+364      ($016c)  2         35.6     40.8   BAR shatter a bottle
+365      ($016d)  3         35.6     40.8   BAR shatter a bottle
+366      ($016e)  1         75.3     86.4   BAR rocket the brick wall
+367      ($016f)  2         75.3     86.4   BAR rocket the brick wall
+368      ($0170)  3         75.3     86.4   BAR rocket the brick wall
+369      ($0171)  1         43.9     50.4   BAR shoot a candle off a table
+370      ($0172)  2         43.9     50.4   BAR shoot a candle off a table
+371      ($0173)  3         43.9     50.4   BAR shoot a candle off a table
+372      ($0174)  1         28.5     32.6   BAR rocket the table (follow w/torch)
+373      ($0175)  2         28.5     32.6   BAR rocket the table (follow w/torch)
+374      ($0176)  3         28.5     32.6   BAR rocket the table (follow w/torch)
+375      ($0177)  1         86.2     98.9   BAR skin the fish
+376      ($0178)  2         86.2     98.9   BAR skin the fish
+377      ($0179)  3         86.2     98.9   BAR skin the fish
+378      ($017a)  1         44.4     50.9   BAR rattle the fish's tail
+379      ($017b)  2         44.4     50.9   BAR rattle the fish's tail
+380      ($017c)  3         44.4     50.9   BAR rattle the fish's tail
+381      ($017d)  1        308.1    353.3   TECHNON gong - enter manager's office
+382      ($017e)  2        308.1    353.3   TECHNON gong - enter manager's office
+383      ($017f)  3        308.1    353.3   TECHNON gong - enter manager's office
+
+390      ($0186)  1        176.6    202.6   thruster on
+391      ($0187)  2        176.6    202.6   thruster on
+392      ($0188)  3        176.6    202.6   thruster on
+393      ($0189)  1         47.3     54.2   thruster off
+394      ($018a)  2         47.3     54.2   thruster off
+395      ($018b)  3         47.3     54.2   thruster off
+396      ($018c)  1         20.5     23.5   shoot paper screen
+397      ($018d)  2         20.5     23.5   shoot paper screen
+398      ($018e)  3         20.5     23.5   shoot paper screen
+399      ($018f)  1         33.5     38.4   hit bat desk #0
+400      ($0190)  2         33.5     38.4   hit bat desk #0
+401      ($0191)  3         33.5     38.4   hit bat desk #0
+402      ($0192)  1         44.4     50.9   hit bat desk #1
+403      ($0193)  2         44.4     50.9   hit bat desk #1
+404      ($0194)  3         44.4     50.9   hit bat desk #1
+405      ($0195)  1         88.7    101.8   MONDOR gushes from amputated limb joint
+406      ($0196)  2         88.7    101.8   MONDOR gushes from amputated limb joint
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 5
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+407      ($0197)  3         88.7    101.8   MONDOR gushes from amputated limb joint
+408      ($0198)  1         26.4     30.2   MONDOR flesh chunk splats on floor #0
+409      ($0199)  2         26.4     30.2   MONDOR flesh chunk splats on floor #0
+410      ($019a)  3         26.4     30.2   MONDOR flesh chunk splats on floor #0
+411      ($019b)  1         24.7     28.3   MONDOR flesh chunk splats on floor #1
+412      ($019c)  2         24.7     28.3   MONDOR flesh chunk splats on floor #1
+413      ($019d)  3         24.7     28.3   MONDOR flesh chunk splats on floor #1
+414      ($019e)  1         19.7     22.6   MONDOR flesh chunk splats on floor #2
+415      ($019f)  2         19.7     22.6   MONDOR flesh chunk splats on floor #2
+416      ($01a0)  3         19.7     22.6   MONDOR flesh chunk splats on floor #2
+417      ($01a1)  1         62.8     72.0   MONDOR shoot gun out of his hand (ricochet)
+418      ($01a2)  2         62.8     72.0   MONDOR shoot gun out of his hand (ricochet)
+419      ($01a3)  3         62.8     72.0   MONDOR shoot gun out of his hand (ricochet)
+420      ($01a4)  1         73.2     84.0   MONDOR grenade throw (incoming...)
+421      ($01a5)  2         73.2     84.0   MONDOR grenade throw (incoming...)
+422      ($01a6)  3         73.2     84.0   MONDOR grenade throw (incoming...)
+423      ($01a7)  1         10.0     11.5   MONDOR blood drip/plop #1
+424      ($01a8)  2         10.0     11.5   MONDOR blood drip/plop #1
+425      ($01a9)  3         10.0     11.5   MONDOR blood drip/plop #1
+426      ($01aa)  1          9.6     11.0   MONDOR blood drip/plop #2
+427      ($01ab)  2          9.6     11.0   MONDOR blood drip/plop #2
+428      ($01ac)  3          9.6     11.0   MONDOR blood drip/plop #2
+429      ($01ad)  1         11.7     13.4   MONDOR blood drip/plop #3
+430      ($01ae)  2         11.7     13.4   MONDOR blood drip/plop #3
+431      ($01af)  3         11.7     13.4   MONDOR blood drip/plop #3
+432      ($01b0)  1          9.6     11.0   MONDOR blood drip/plop #4
+433      ($01b1)  2          9.6     11.0   MONDOR blood drip/plop #4
+434      ($01b2)  3          9.6     11.0   MONDOR blood drip/plop #4
+435      ($01b3)  1         10.9     12.5   MONDOR blood drip/plop #5
+436      ($01b4)  2         10.9     12.5   MONDOR blood drip/plop #5
+437      ($01b5)  3         10.9     12.5   MONDOR blood drip/plop #5
+438      ($01b6)  1         45.2     51.8   EVERGREEN sign drops after chain cut
+439      ($01b7)  2         45.2     51.8   EVERGREEN sign drops after chain cut
+440      ($01b8)  3         45.2     51.8   EVERGREEN sign drops after chain cut
+441      ($01b9)  1         24.7     28.3   EVERGREEN sign falls on receptionist
+442      ($01ba)  2         24.7     28.3   EVERGREEN sign falls on receptionist
+443      ($01bb)  3         24.7     28.3   EVERGREEN sign falls on receptionist
+
+447      ($01bf)  1         68.6     78.7   SLIME takes a rocket hit
+448      ($01c0)  2         68.6     78.7   SLIME takes a rocket hit
+449      ($01c1)  3         68.6     78.7   SLIME takes a rocket hit
+450      ($01c2)  1         20.5     23.5   SLIME takes a bullet hit
+451      ($01c3)  2         20.5     23.5   SLIME takes a bullet hit
+452      ($01c4)  3         20.5     23.5   SLIME takes a bullet hit
+453      ($01c5)  1         40.2     46.1   SLIME launches eyball 
+454      ($01c6)  2         40.2     46.1   SLIME launches eyball 
+455      ($01c7)  3         40.2     46.1   SLIME launches eyball 
+456      ($01c8)  3        100.9    115.7   EVERGREEN powerup flies out & at you
+457      ($01c9)  3        380.5    436.3   EVERGREEN elevator motor (fades out)
+458      ($01ca)  3         59.9     68.6   EVERGREEN elevator arrives at floor
+459      ($01cb)  3         19.3     22.1   EVERGREEN select elevator floor (w/gun)
+
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 6
+
+463      ($01cf)  1         26.0     29.8   EVERGREEN non-boy thuds to ground #1
+464      ($01d0)  2         26.0     29.8   EVERGREEN non-boy thuds to ground #1
+465      ($01d1)  3         26.0     29.8   EVERGREEN non-boy thuds to ground #1
+466      ($01d2)  1         22.6     25.9   EVERGREEN debris puff (shoot castle cones)
+467      ($01d3)  2         22.6     25.9   EVERGREEN debris puff (shoot castle cones)
+468      ($01d4)  3         22.6     25.9   EVERGREEN debris puff (shoot castle cones)
+469      ($01d5)  1         58.2     66.7   EVERGREEN debris explosion
+470      ($01d6)  2         58.2     66.7   EVERGREEN debris explosion
+471      ($01d7)  3         58.2     66.7   EVERGREEN debris explosion
+472      ($01d8)  1         22.6     25.9   EVERGREEN shoot a video camera
+473      ($01d9)  2         22.6     25.9   EVERGREEN shoot a video camera
+474      ($01da)  3         22.6     25.9   EVERGREEN shoot a video camera
+475      ($01db)  1         16.7     19.2   hit bat desk #3
+476      ($01dc)  2         16.7     19.2   hit bat desk #3
+477      ($01dd)  3         16.7     19.2   hit bat desk #3
+478      ($01de)  1         13.4     15.4   hit bat desk #4
+479      ($01df)  2         13.4     15.4   hit bat desk #4
+480      ($01e0)  3         13.4     15.4   hit bat desk #4
+481      ($01e1)  1         24.3     27.8   hit bat desk #5
+482      ($01e2)  2         24.3     27.8   hit bat desk #5
+483      ($01e3)  3         24.3     27.8   hit bat desk #5
+484      ($01e4)  1         21.3     24.5   hit bat desk #6
+485      ($01e5)  2         21.3     24.5   hit bat desk #6
+486      ($01e6)  3         21.3     24.5   hit bat desk #6
+487      ($01e7)  1          7.1      8.2   MONDOR body hit
+488      ($01e8)  2          7.1      8.2   MONDOR body hit
+489      ($01e9)  3          7.1      8.2   MONDOR body hit
+
+501      ($01f5)  1         20.9     24.0   BATDESK door small servo motor
+502      ($01f6)  2         20.9     24.0   BATDESK door small servo motor
+503      ($01f7)  3         20.9     24.0   BATDESK door small servo motor
+504      ($01f8)  1         21.8     25.0   BATDESK gun short servo motor
+505      ($01f9)  2         21.8     25.0   BATDESK gun short servo motor
+506      ($01fa)  3         21.8     25.0   BATDESK gun short servo motor
+507      ($01fb)  1         36.4     41.8   BATDESK gun longer servo motor
+508      ($01fc)  2         36.4     41.8   BATDESK gun longer servo motor
+509      ($01fd)  3         36.4     41.8   BATDESK gun longer servo motor
+510      ($01fe)  3         64.5     73.9   GENERAL select direction: yes
+511      ($01ff)  3         22.2     25.4   GENERAL select direction: no
+512      ($0200)  1         33.1     37.9   dude gets hit and goes "oomph" #1
+513      ($0201)  2         33.1     37.9   dude gets hit and goes "oomph" #1
+514      ($0202)  3         33.1     37.9   dude gets hit and goes "oomph" #1
+515      ($0203)  1         16.3     18.7   dude gets hit and goes "oomph" #2
+516      ($0204)  2         16.3     18.7   dude gets hit and goes "oomph" #2
+517      ($0205)  3         16.3     18.7   dude gets hit and goes "oomph" #2
+
+522      ($020a)  3        253.6    290.9   wake up! etc...
+523      ($020b)  3        101.3    116.2   the revolution has begun!
+524      ($020c)  3        115.1    132.0   generation X is in effect!
+525      ($020d)  2        300.5    344.6   new order base...proceed to objective...
+526      ($020e)  2         77.0     88.3   roger, copy that...
+527      ($020f)  2        138.1    158.4   new order 12 -- encountering resistance!
+528      ($0210)  1         32.2     37.0   enemy hit, grunts #0
+529      ($0211)  2         32.2     37.0   enemy hit, grunts #0
+530      ($0212)  3         32.2     37.0   enemy hit, grunts #0
+531      ($0213)  1         64.5     73.9   warcry as dude jumps from chopper to roof
+532      ($0214)  2         64.5     73.9   warcry as dude jumps from chopper to roof
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 7
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+533      ($0215)  3         64.5     73.9   warcry as dude jumps from chopper to roof
+534      ($0216)  1         17.6     20.2   enemy hit, grunts #1
+535      ($0217)  2         17.6     20.2   enemy hit, grunts #1
+536      ($0218)  3         17.6     20.2   enemy hit, grunts #1
+537      ($0219)  1         81.2     93.1   enemy pain scream #1
+538      ($021a)  2         81.2     93.1   enemy pain scream #1
+539      ($021b)  3         81.2     93.1   enemy pain scream #1
+540      ($021c)  1         51.1     58.6   enemy pain scream #2
+541      ($021d)  2         51.1     58.6   enemy pain scream #2
+542      ($021e)  3         51.1     58.6   enemy pain scream #2
+543      ($021f)  1         77.4     88.8   enemy pain scream #3
+544      ($0220)  2         77.4     88.8   enemy pain scream #3
+545      ($0221)  3         77.4     88.8   enemy pain scream #3
+546      ($0222)  1         62.4     71.5   enemy pain scream #4
+547      ($0223)  2         62.4     71.5   enemy pain scream #4
+548      ($0224)  3         62.4     71.5   enemy pain scream #4
+549      ($0225)  1         24.7     28.3   enemy hit, grunts #2
+550      ($0226)  2         24.7     28.3   enemy hit, grunts #2
+551      ($0227)  3         24.7     28.3   enemy hit, grunts #2
+552      ($0228)  1         16.7     19.2   enemy hit, grunts #3
+553      ($0229)  2         16.7     19.2   enemy hit, grunts #3
+554      ($022a)  3         16.7     19.2   enemy hit, grunts #3
+555      ($022b)  1         25.5     29.3   enemy pain scream #5
+556      ($022c)  2         25.5     29.3   enemy pain scream #5
+557      ($022d)  3         25.5     29.3   enemy pain scream #5
+558      ($022e)  1         27.2     31.2   enemy pain scream #6
+559      ($022f)  2         27.2     31.2   enemy pain scream #6
+560      ($0230)  3         27.2     31.2   enemy pain scream #6
+561      ($0231)  3         90.0    103.2   big cog-head: the club's closed
+562      ($0232)  3         87.5    100.3   big cog-head: no trespassing
+563      ($0233)  1         54.4     62.4   cog head death: short
+564      ($0234)  2         54.4     62.4   cog head death: short
+565      ($0235)  3         54.4     62.4   cog head death: short
+566      ($0236)  1        167.8    192.5   cog head death: long
+567      ($0237)  2        167.8    192.5   cog head death: long
+568      ($0238)  3        167.8    192.5   cog head death: long
+
+594      ($0252)  1         15.5     17.8   LOIS kiss medium
+595      ($0253)  2         15.5     17.8   LOIS kiss medium
+596      ($0254)  3         15.5     17.8   LOIS kiss medium
+
+641      ($0281)  3         40.6     46.6   MONDOR: ow!!
+642      ($0282)  3         25.5     29.3   MONDOR: ooh!
+643      ($0283)  3         23.9     27.4   NULL
+644      ($0284)  3         62.8     72.0   MONDOR: growl #2
+645      ($0285)  3         31.0     35.5   NULL
+646      ($0286)  3        148.2    169.9   MONDOR: damage #6
+647      ($0287)  3         90.8    104.2   MONDOR: it's only a flesh wound
+648      ($0288)  3         25.1     28.8   NULL
+649      ($0289)  3         25.5     29.3   MONDOR: huh!? #1
+650      ($028a)  3         36.8     42.2   MONDOR: boom
+651      ($028b)  3         46.0     52.8   MONDOR: shakes off a hit #0
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 8
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+652      ($028c)  3        102.1    117.1   MONDOR: c'mon!! whaddya scared??
+653      ($028d)  3         49.8     57.1   MONDOR: take that
+654      ($028e)  3        136.5    156.5   MONDOR: I'll rip your head off for that
+655      ($028f)  3        131.8    151.2   MONDOR: I'll eat your guts w/soy sauce
+656      ($0290)  3         89.2    102.2   MONDOR: ahh...sushi!
+657      ($0291)  3         82.0     94.1   MONDOR: laughs #0
+658      ($0292)  3         44.8     51.4   MONDOR: belches fire (mortal chunder)
+659      ($0293)  3         21.8     25.0   MONDOR: damage #0
+660      ($0294)  3         26.4     30.2   MONDOR: damage #1
+661      ($0295)  3         29.3     33.6   MONDOR: damage #2
+662      ($0296)  3         40.2     46.1   MONDOR: damage #3
+663      ($0297)  3         29.7     34.1   MONDOR: damage #4
+664      ($0298)  3        137.7    157.9   NULL
+665      ($0299)  3         76.2     87.4   MONDOR: back for more, huh?
+666      ($029a)  3        521.1    597.6   MONDOR: death
+667      ($029b)  3        131.8    151.2   MONDOR: I'm your worst nightmare
+668      ($029c)  3         67.8     77.8   NULL
+669      ($029d)  3        108.4    124.3   MONDOR: pray for a fast death
+670      ($029e)  3         41.0     47.0   MONDOR: coward!
+671      ($029f)  3        113.0    129.6   MONDOR: go on, run to mommy
+672      ($02a0)  3         84.5     97.0   MONDOR: I am Mondor!
+673      ($02a1)  3         69.9     80.2   MONDOR: you are done!
+674      ($02a2)  3         99.6    114.2   MONDOR: you are nothing
+675      ($02a3)  3         76.6     87.8   MONDOR: don't make me get up
+676      ($02a4)  3         95.9    109.9   MONDOR: kamikazi scream
+677      ($02a5)  3        109.7    125.8   MONDOR: I will devour you
+678      ($02a6)  3        105.9    121.4   NULL
+679      ($02a7)  3         64.5     73.9   MONDOR: I've had worse...
+680      ($02a8)  3         91.2    104.6   NULL
+681      ($02a9)  3         91.7    105.1   NULL
+682      ($02aa)  3         74.5     85.4   NULL
+683      ($02ab)  3         54.0     61.9   NULL
+684      ($02ac)  3         30.6     35.0   NULL
+685      ($02ad)  3         50.2     57.6   NULL
+686      ($02ae)  3         23.9     27.4   MONDOR: hey #0
+
+695      ($02b7)  3        114.3    131.0   SLIME: laugh #0
+
+697      ($02b9)  3        121.4    139.2   SLIME: laugh #1
+
+700      ($02bc)  3         33.5     38.4   SLIME: grunts #0
+701      ($02bd)  3         61.5     70.6   SLIME: grunts #1
+
+703      ($02bf)  2        133.1    152.6   NON PILOT step out of the chopper now
+704      ($02c0)  2        167.8    192.5   NON PILOT you have disobeyed...
+705      ($02c1)  2        179.6    205.9   NON PILOT land...or we will destroy you
+706      ($02c2)  2        110.1    126.2   NON PILOT this is your last chance
+707      ($02c3)  2        198.0    227.0   NON PILOT you are illegally...N. O. vehicle
+708      ($02c4)  3         37.3     42.7   NON-BOY #1: over here!
+709      ($02c5)  3         33.1     37.9   NON-BOY #1: let's get 'em
+710      ($02c6)  3         28.9     33.1   NON-BOY #1: right here
+711      ($02c7)  3         18.8     21.6   NON-BOY #1: shoot!
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 9
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+712      ($02c8)  3         35.6     40.8   NON-BOY #2: over here!
+713      ($02c9)  3         18.4     21.1   NON-BOY #2: get 'em
+714      ($02ca)  3         27.6     31.7   NON-BOY #2: right here
+715      ($02cb)  3         22.6     25.9   NON-BOY #2: shoot!
+716      ($02cc)  3         21.8     25.0   NON-BOY #2: fire
+717      ($02cd)  2        102.1    117.1   NON PILOT capture is inevitable
+718      ($02ce)  2         49.4     56.6   NON PILOT I repeat
+719      ($02cf)  2         73.7     84.5   NON PILOT Turn yourself in
+720      ($02d0)  2         72.8     83.5   NON PILOT Give yourself up
+721      ($02d1)  2         80.4     92.2   NON PILOT Surrender now
+722      ($02d2)  2         97.1    111.4   NON PILOT make it easy on yourself
+723      ($02d3)  2         90.8    104.2   NON PILOT You have no choice
+724      ($02d4)  2        113.0    129.6   NON PILOT There is no hope of escape
+725      ($02d5)  2         62.4     71.5   NON PILOT what the blazes --
+726      ($02d6)  2         61.5     70.6   NON PILOT she's breaking up!
+727      ($02d7)  2         49.0     56.2   NON PILOT Not good!
+728      ($02d8)  2         77.4     88.8   NON PILOT we're going down!!
+729      ($02d9)  2         85.8     98.4   NON PILOT land the chopper now
+730      ($02da)  3         51.9     59.5   EVERGREEN receptionist yells
+731      ($02db)  3         72.0     82.6   CLUB X cog-head: clear the street
+732      ($02dc)  3         44.4     50.9   CLUB X cog-head: - now (follows 731 or 734)
+733      ($02dd)  3        100.9    115.7   CLUB X cog-head: this is a combat zone
+734      ($02de)  3         85.4     97.9   CLUB X cog-head: leave the area
+735      ($02df)  3         94.6    108.5   CLUB X cog-head: the show is cancelled
+736      ($02e0)  3         80.8     92.6   CLUB X cog-head: spinout vocal reaction
+
+768      ($0300)  1            -        -   explosion #1
+769      ($0301)  2            -        -   explosion #1
+770      ($0302)  3            -        -   explosion #1
+771      ($0303)  1            -        -   explosion #2
+772      ($0304)  2            -        -   explosion #2
+773      ($0305)  3            -        -   explosion #2
+774      ($0306)  1            -        -   explosion #3
+775      ($0307)  2            -        -   explosion #3
+776      ($0308)  3            -        -   explosion #3
+777      ($0309)  1            -        -   explosion #4
+778      ($030a)  2            -        -   explosion #4
+779      ($030b)  3            -        -   explosion #4
+
+782      ($030e)  3            -        -   helicopter loop
+
+784      ($0310)  1        416.0    477.1   game opener throb
+
+787      ($0313)  2        360.0    412.8   air raid siren
+788      ($0314)  1         95.0    109.0   hit lava lamp
+789      ($0315)  2         95.0    109.0   hit lava lamp
+790      ($0316)  3         95.0    109.0   hit lava lamp
+791      ($0317)  1         69.5     79.7   light club X sign on fire (torch)
+792      ($0318)  2         69.5     79.7   light club X sign on fire (torch)
+793      ($0319)  3         69.5     79.7   light club X sign on fire (torch)
+794      ($031a)  1         21.8     25.0   club X sign crackles #0
+795      ($031b)  2         21.8     25.0   club X sign crackles #0
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 10
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+796      ($031c)  3         21.8     25.0   club X sign crackles #0
+797      ($031d)  1         24.7     28.3   club X sign crackles #1
+798      ($031e)  2         24.7     28.3   club X sign crackles #1
+799      ($031f)  3         24.7     28.3   club X sign crackles #1
+800      ($0320)  1         19.3     22.1   club X sign: 1st electrical hit
+801      ($0321)  2         19.3     22.1   club X sign: 1st electrical hit
+802      ($0322)  3         19.3     22.1   club X sign: 1st electrical hit
+803      ($0323)  1         23.9     27.4   2nd electric hit
+804      ($0324)  2         23.9     27.4   2nd electric hit
+805      ($0325)  3         23.9     27.4   2nd electric hit
+806      ($0326)  1         39.8     45.6   axe in wood/break thru sawhorse
+807      ($0327)  2         39.8     45.6   axe in wood/break thru sawhorse
+808      ($0328)  3         39.8     45.6   axe in wood/break thru sawhorse
+809      ($0329)  1         46.9     53.8   glass cracks
+810      ($032a)  2         46.9     53.8   glass cracks
+811      ($032b)  3         46.9     53.8   glass cracks
+812      ($032c)  1         64.0     73.4   glass shatters
+813      ($032d)  2         64.0     73.4   glass shatters
+814      ($032e)  3         64.0     73.4   glass shatters
+815      ($032f)  2        100.5    115.2   MONDOR morphs
+816      ($0330)  3        100.5    115.2   MONDOR morphs
+817      ($0331)  1         61.9     71.0   pneumatic door hiss
+818      ($0332)  2         61.9     71.0   pneumatic door hiss
+819      ($0333)  1         38.5     44.2   drop a powerup crate (27 to land)
+820      ($0334)  2         38.5     44.2   drop a powerup crate (27 to land)
+821      ($0335)  3         38.5     44.2   drop a powerup crate (27 to land)
+822      ($0336)  1         17.2     19.7   shoot open a powerup crate
+823      ($0337)  2         17.2     19.7   shoot open a powerup crate
+824      ($0338)  3         17.2     19.7   shoot open a powerup crate
+825      ($0339)  1         27.2     31.2   hit dumpster
+826      ($033a)  2         27.2     31.2   hit dumpster
+827      ($033b)  3         27.2     31.2   hit dumpster
+828      ($033c)  1         85.8     98.4   window/dumpster burns
+829      ($033d)  2         85.8     98.4   window/dumpster burns
+830      ($033e)  3         85.8     98.4   window/dumpster burns
+831      ($033f)  1         52.7     60.5   cannon garbage can
+832      ($0340)  2         52.7     60.5   cannon garbage can
+833      ($0341)  3         52.7     60.5   cannon garbage can
+834      ($0342)  1         26.8     30.7   garbage can lid hit
+835      ($0343)  2         26.8     30.7   garbage can lid hit
+836      ($0344)  3         26.8     30.7   garbage can lid hit
+837      ($0345)  1         34.3     39.4   garbage can lid rolls & stops
+838      ($0346)  2         34.3     39.4   garbage can lid rolls & stops
+839      ($0347)  3         34.3     39.4   garbage can lid rolls & stops
+840      ($0348)  3            -        -   interior helicopter fade in
+841      ($0349)  3            -        -   interior helicopter loop
+842      ($034a)  1         20.9     24.0   bullet hits boarded up window
+843      ($034b)  2         20.9     24.0   bullet hits boarded up window
+844      ($034c)  3         20.9     24.0   bullet hits boarded up window
+845      ($034d)  3        107.6    123.4   zoom in
+846      ($034e)  3            -        -   ENDLESS troop transport fades in & runs
+847      ($034f)  3            -        -   ENDLESS troop transport starts up & runs
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 11
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+848      ($0350)  3        260.8    299.0   troop transport fades out
+849      ($0351)  3         51.5     59.0   troop transport stops running
+850      ($0352)  2         54.4     62.4   troop transport turret turns
+851      ($0353)  3         54.4     62.4   troop transport turret turns
+852      ($0354)  3            -        -   ENDLESS troop transport background restore
+853      ($0355)  1         46.0     52.8   garbage can rolls & stops
+854      ($0356)  2         46.0     52.8   garbage can rolls & stops
+855      ($0357)  3         46.0     52.8   garbage can rolls & stops
+856      ($0358)  1         39.8     45.6   garbage can hit
+857      ($0359)  2         39.8     45.6   garbage can hit
+858      ($035a)  3         39.8     45.6   garbage can hit
+859      ($035b)  1         61.9     71.0   coins fall from phone
+860      ($035c)  2         61.9     71.0   coins fall from phone
+861      ($035d)  3         61.9     71.0   coins fall from phone
+
+864      ($0360)  3        273.3    313.4   (213)	elevator ascent(arrival)
+865      ($0361)  3         46.9     53.8   trog punch grunt
+866      ($0362)  3         74.9     85.9   trog fire scream
+
+870      ($0366)  3        119.7    137.3   electronic phone rings
+871      ($0367)  3        121.0    138.7   phone rings over the phone
+872      ($0368)  3        172.9    198.2   "if you'd like to make a call..."
+
+875      ($036b)  3        318.1    364.8   PHONE dial tone (steady, then fades out)
+876      ($036c)  1          5.9      6.7   PHONE touch tone #0
+877      ($036d)  2          5.9      6.7   PHONE touch tone #0
+878      ($036e)  3          5.9      6.7   PHONE touch tone #0
+879      ($036f)  1          5.9      6.7   PHONE touch tone #1
+880      ($0370)  2          5.9      6.7   PHONE touch tone #1
+881      ($0371)  3          5.9      6.7   PHONE touch tone #1
+882      ($0372)  1          6.3      7.2   PHONE touch tone #2
+883      ($0373)  2          6.3      7.2   PHONE touch tone #2
+884      ($0374)  3          6.3      7.2   PHONE touch tone #2
+885      ($0375)  1          6.7      7.7   PHONE touch tone #3
+886      ($0376)  2          6.7      7.7   PHONE touch tone #3
+887      ($0377)  3          6.7      7.7   PHONE touch tone #3
+888      ($0378)  1          6.7      7.7   PHONE touch tone #4
+889      ($0379)  2          6.7      7.7   PHONE touch tone #4
+890      ($037a)  3          6.7      7.7   PHONE touch tone #4
+
+894      ($037e)  1         20.5     23.5   MONDOR body chunk damage #1
+895      ($037f)  2         20.5     23.5   MONDOR body chunk damage #1
+896      ($0380)  3         20.5     23.5   MONDOR body chunk damage #1
+
+900      ($0384)  1            -        -   explosion #1 ($300 @full volume)
+901      ($0385)  2            -        -   explosion #1 ($301 @full volume)
+902      ($0386)  3            -        -   explosion #1 ($302 @full volume)
+903      ($0387)  1          9.6     11.0   mondor reaches back & grabs rifle (cock)
+904      ($0388)  2          9.6     11.0   mondor reaches back & grabs rifle (cock)
+905      ($0389)  3          9.6     11.0   mondor reaches back & grabs rifle (cock)
+906      ($038a)  3        115.5    132.5   MANAGER - SAN desk transforms
+907      ($038b)  1        120.1    137.8   new explosion #0
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 12
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+908      ($038c)  2        120.1    137.8   new explosion #0
+909      ($038d)  3        120.1    137.8   new explosion #0
+910      ($038e)  1         88.7    101.8   new explosion #1
+911      ($038f)  2         88.7    101.8   new explosion #1
+912      ($0390)  3         88.7    101.8   new explosion #1
+913      ($0391)  1         46.5     53.3   MONDOR fireball explodes (high torch)
+914      ($0392)  2         46.5     53.3   MONDOR fireball explodes (high torch)
+915      ($0393)  3         46.5     53.3   MONDOR fireball explodes (high torch)
+916      ($0394)  1         54.4     62.4   MONDOR shoot out a fireball (hiss)
+917      ($0395)  2         54.4     62.4   MONDOR shoot out a fireball (hiss)
+918      ($0396)  3         54.4     62.4   MONDOR shoot out a fireball (hiss)
+
+922      ($039a)  3        152.8    175.2   EVERGREEN slime falls from rafters
+923      ($039b)  1         26.4     30.2   NULL
+924      ($039c)  2         26.4     30.2   NULL
+925      ($039d)  3         26.4     30.2   NULL
+926      ($039e)  1         19.7     22.6   MONDOR gun clatters to the flagstones #2
+927      ($039f)  2         19.7     22.6   MONDOR gun clatters to the flagstones #2
+928      ($03a0)  3         19.7     22.6   MONDOR gun clatters to the flagstones #2
+929      ($03a1)  3         16.7     19.2   MANAGER-SAN slaps the desk
+930      ($03a2)  1         24.3     27.8   cat hit (short)
+931      ($03a3)  2         24.3     27.8   cat hit (short)
+932      ($03a4)  3         24.3     27.8   cat hit (short)
+933      ($03a5)  1         25.1     28.8   cat hit (louder)
+934      ($03a6)  2         25.1     28.8   cat hit (louder)
+935      ($03a7)  3         25.1     28.8   cat hit (louder)
+936      ($03a8)  1         46.9     53.8   trog punch grunt
+937      ($03a9)  2         46.9     53.8   trog punch grunt
+938      ($03aa)  3         46.9     53.8   trog punch grunt
+939      ($03ab)  1         74.9     85.9   trog fire scream
+940      ($03ac)  2         74.9     85.9   trog fire scream
+941      ($03ad)  3         74.9     85.9   trog fire scream
+942      ($03ae)  1         93.3    107.0   Enemy launches a missile (variable length)
+943      ($03af)  2         93.3    107.0   Enemy launches a missile (variable length)
+944      ($03b0)  3         93.3    107.0   Enemy launches a missile (variable length)
+945      ($03b1)  1         97.9    112.3   MONDOR new gun hit
+946      ($03b2)  2         97.9    112.3   MONDOR new gun hit
+947      ($03b3)  3         97.9    112.3   MONDOR new gun hit
+948      ($03b4)  1         86.2     98.9   JUNGLE snake hisses
+949      ($03b5)  2         86.2     98.9   JUNGLE snake hisses
+950      ($03b6)  3         86.2     98.9   JUNGLE snake hisses
+951      ($03b7)  1         20.9     24.0   JUNGLE bullet hits stone wall/ricochet #0
+952      ($03b8)  2         20.9     24.0   JUNGLE bullet hits stone wall/ricochet #0
+953      ($03b9)  3         20.9     24.0   JUNGLE bullet hits stone wall/ricochet #0
+954      ($03ba)  1         20.9     24.0   JUNGLE bullet hits stone wall/ricochet #1
+955      ($03bb)  2         20.9     24.0   JUNGLE bullet hits stone wall/ricochet #1
+956      ($03bc)  3         20.9     24.0   JUNGLE bullet hits stone wall/ricochet #1
+957      ($03bd)  1         24.3     27.8   JUNGLE bullet hits stone wall/ricochet #2
+958      ($03be)  2         24.3     27.8   JUNGLE bullet hits stone wall/ricochet #2
+959      ($03bf)  3         24.3     27.8   JUNGLE bullet hits stone wall/ricochet #2
+960      ($03c0)  1         82.0     94.1   GENERAL glass shatters #0
+961      ($03c1)  2         82.0     94.1   GENERAL glass shatters #0
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 13
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+962      ($03c2)  3         82.0     94.1   GENERAL glass shatters #0
+963      ($03c3)  1         53.2     61.0   GENERAL glass shatters #1
+964      ($03c4)  2         53.2     61.0   GENERAL glass shatters #1
+965      ($03c5)  3         53.2     61.0   GENERAL glass shatters #1
+966      ($03c6)  1         63.6     73.0   GENERAL glass shatters #2
+967      ($03c7)  2         63.6     73.0   GENERAL glass shatters #2
+968      ($03c8)  3         63.6     73.0   GENERAL glass shatters #2
+969      ($03c9)  1         94.6    108.5   GENERAL glass shatters #3
+970      ($03ca)  2         94.6    108.5   GENERAL glass shatters #3
+971      ($03cb)  3         94.6    108.5   GENERAL glass shatters #3
+972      ($03cc)  1         74.1     85.0   GENERAL glass shatters #4
+973      ($03cd)  2         74.1     85.0   GENERAL glass shatters #4
+974      ($03ce)  3         74.1     85.0   GENERAL glass shatters #4
+975      ($03cf)  1        103.4    118.6   JUNGLE/EVERGREEN new debris explosion
+976      ($03d0)  2        103.4    118.6   JUNGLE/EVERGREEN new debris explosion
+977      ($03d1)  3        103.4    118.6   JUNGLE/EVERGREEN new debris explosion
+
+980      ($03d4)  2            -        -   DIAGNOSTIC      UP Diagnostic Sound
+981      ($03d5)  2            -        -   DIAGNOSTIC      DOWN Diagnostic Sound
+982      ($03d6)  2            -        -   DIAGNOSTIC      ENTER Diagnostic Sound
+983      ($03d7)  2            -        -   DIAGNOSTIC      ESCAPE Diagnostic Sound
+984      ($03d8)  2            -        -   DIAGNOSTIC      WARNING Diagnostic Sound
+985      ($03d9)  2            -        -   DIAGNOSTIC      SINGLE BEEP #1 Diagnostic Sound
+986      ($03da)  2            -        -   DIAGNOSTIC      SINGLE BEEP #2 Diagnostic Sound
+987      ($03db)  2            -        -   DIAGNOSTIC      MISC #1 Diagnostic Sound
+988      ($03dc)  2            -        -   DIAGNOSTIC      MISC #2 Diagnostic Sound
+989      ($03dd)  2            -        -   DIAGNOSTIC      MISC #3 Diagnostic Sound
+990      ($03de)  0          0.8      1.0   SYSTEM		Send Mark on Bin 0 and Kill All Sound
+991      ($03df)  0          0.8      1.0   SYSTEM		Send Mark on Bin 1 and Kill All Sound
+992      ($03e0)  0          0.8      1.0   SYSTEM		Send Mark on Bin 2 and Kill All Sound
+993      ($03e1)  0          0.8      1.0   SYSTEM		Send Mark on Bin 3 and Kill All Sound
+
+995      ($03e3)  0          0.0      0.0   SYSTEM          Kill sound on track 0
+996      ($03e4)  1          0.0      0.0   SYSTEM          Kill sound on track 1
+997      ($03e5)  2          0.0      0.0   SYSTEM          Kill sound on track 2
+998      ($03e6)  3          0.0      0.0   SYSTEM          Kill sound on track 3
+999      ($03e7)  0          2.1      2.4   SYSTEM      send version # as a signal
+1000     ($03e8)  0            -        -   MUSIC Eat the Rich full out (for voladj)
+1001     ($03e9)  1        419.4    481.0   DCS logo
+1002     ($03ea)  1          2.1      2.4   DEBUG send an "I'm alive" signal - 0xA5
+1003     ($03eb)  2          2.1      2.4   DEBUG send an "I'm alive" signal - 0xA5
+1004     ($03ec)  3          2.1      2.4   DEBUG send an "I'm alive" signal - 0xA5
+
+1024     ($0400)  1         38.9     44.6   JAPAN bullet to chain-link fence
+1025     ($0401)  2         38.9     44.6   JAPAN bullet to chain-link fence
+1026     ($0402)  3         38.9     44.6   JAPAN bullet to chain-link fence
+1027     ($0403)  1         72.8     83.5   JAPAN rocket to chain-link fence
+1028     ($0404)  2         72.8     83.5   JAPAN rocket to chain-link fence
+1029     ($0405)  3         72.8     83.5   JAPAN rocket to chain-link fence
+1030     ($0406)  1         77.4     88.8   EVERGREEN shoot beekeeper's airtank
+1031     ($0407)  2         77.4     88.8   EVERGREEN shoot beekeeper's airtank
+1032     ($0408)  3         77.4     88.8   EVERGREEN shoot beekeeper's airtank
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 14
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1033     ($0409)  1         21.8     25.0   EVERGREEN bonk into wall
+1034     ($040a)  2         21.8     25.0   EVERGREEN bonk into wall
+1035     ($040b)  3         21.8     25.0   EVERGREEN bonk into wall
+1036     ($040c)  1         47.7     54.7   powerup hit
+1037     ($040d)  2         47.7     54.7   powerup hit
+1038     ($040e)  3         47.7     54.7   powerup hit
+1039     ($040f)  1         48.1     55.2   powerup steal
+1040     ($0410)  2         48.1     55.2   powerup steal
+1041     ($0411)  3         48.1     55.2   powerup steal
+1042     ($0412)  1         39.8     45.6   JAPAN bullet to fence - high variation
+1043     ($0413)  2         39.8     45.6   JAPAN bullet to fence - high variation
+1044     ($0414)  3         39.8     45.6   JAPAN bullet to fence - high variation
+1045     ($0415)  1         39.8     45.6   JAPAN bullet to fence - low variation
+1046     ($0416)  2         39.8     45.6   JAPAN bullet to fence - low variation
+1047     ($0417)  3         39.8     45.6   JAPAN bullet to fence - low variation
+1048     ($0418)  1         61.1     70.1   JUNGLE Spear whoosh
+1049     ($0419)  2         61.1     70.1   JUNGLE Spear whoosh
+1050     ($041a)  3         61.1     70.1   JUNGLE Spear whoosh
+
+1054     ($041e)  1         62.4     71.5   JUNGLE Bush rustles - shorter
+1055     ($041f)  2         62.4     71.5   JUNGLE Bush rustles - shorter
+1056     ($0420)  3         62.4     71.5   JUNGLE Bush rustles - shorter
+1057     ($0421)  1         75.8     86.9   CLUB X cog-head skate stroke
+1058     ($0422)  2         75.8     86.9   CLUB X cog-head skate stroke
+1059     ($0423)  3         75.8     86.9   CLUB X cog-head skate stroke
+1060     ($0424)  1         11.7     13.4   CLUB X cog-head skate skid
+1061     ($0425)  2         11.7     13.4   CLUB X cog-head skate skid
+1062     ($0426)  3         11.7     13.4   CLUB X cog-head skate skid
+1063     ($0427)  1         46.0     52.8   CLUB X cog-head spins on skate (repeatable)
+1064     ($0428)  2         46.0     52.8   CLUB X cog-head spins on skate (repeatable)
+1065     ($0429)  3         46.0     52.8   CLUB X cog-head spins on skate (repeatable)
+1066     ($042a)  3         58.2     66.7   STEVEN VIDEO pre-play noise (CONELRAD)
+1067     ($042b)  2         36.8     42.2   STEVEN VIDEO throw car keys
+1068     ($042c)  2         10.0     11.5   STEVEN VIDEO catch car keys
+1069     ($042d)  1         10.9     12.5   COPTER gun shorter servo motor
+1070     ($042e)  2         10.9     12.5   COPTER gun shorter servo motor
+1071     ($042f)  3         10.9     12.5   COPTER gun shorter servo motor
+1072     ($0430)  1          6.7      7.7   NONBOY bullet to nonboy's body
+1073     ($0431)  2          6.7      7.7   NONBOY bullet to nonboy's body
+1074     ($0432)  3          6.7      7.7   NONBOY bullet to nonboy's body
+
+1078     ($0436)  1         61.1     70.1   OO - LA - LA boing
+1079     ($0437)  2         61.1     70.1   OO - LA - LA boing
+1080     ($0438)  3         61.1     70.1   OO - LA - LA boing
+1081     ($0439)  1        118.5    135.8   JUNGLE shoot & award a crystal
+1082     ($043a)  2        118.5    135.8   JUNGLE shoot & award a crystal
+1083     ($043b)  3        118.5    135.8   JUNGLE shoot & award a crystal
+1084     ($043c)  1        153.6    176.2   JUNGLE crystal rises to the wall
+1085     ($043d)  2        153.6    176.2   JUNGLE crystal rises to the wall
+1086     ($043e)  3        153.6    176.2   JUNGLE crystal rises to the wall
+1087     ($043f)  3            -        -   CHARLOTTE walks thru slime pool
+1088     ($0440)  2        108.0    123.8   CHARLOTTE splashes into pool(xfade w/$43f)
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 15
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1089     ($0441)  3            -        -   CHARLOTTE walks on dry land
+1090     ($0442)  3         12.6     14.4   CHARLOTTE leg segment #1
+1091     ($0443)  3         12.6     14.4   CHARLOTTE leg segment #2
+1092     ($0444)  3         12.1     13.9   CHARLOTTE leg segment #3
+1093     ($0445)  3         12.1     13.9   CHARLOTTE leg segment #4
+1094     ($0446)  2         61.9     71.0   CHARLOTTE damage yell #0
+1095     ($0447)  2         66.1     75.8   CHARLOTTE damage yell #1
+1096     ($0448)  2         82.9     95.0   CHARLOTTE damage yell #2
+1097     ($0449)  2         34.3     39.4   CHARLOTTE damage yell #3
+1098     ($044a)  2         35.2     40.3   CHARLOTTE damage yell #4
+1099     ($044b)  2         40.6     46.6   CHARLOTTE damage yell #5
+1100     ($044c)  2         58.2     66.7   CHARLOTTE roar of greeting
+1101     ($044d)  3        100.5    115.2   CHARLOTTE jumps out of slime pool
+1102     ($044e)  3         24.7     28.3   CHARLOTTE jumps on dry land
+1103     ($044f)  3         27.2     31.2   CHARLOTTE lands after jumping
+1104     ($0450)  1         16.7     19.2   CHARLOTTE head butts the screen
+1105     ($0451)  2         16.7     19.2   CHARLOTTE head butts the screen
+1106     ($0452)  3         16.7     19.2   CHARLOTTE head butts the screen
+
+1110     ($0456)  2         64.5     73.9   CHARLOTTE bites, sucks (you lose)
+1111     ($0457)  3        166.6    191.0   JUNGLE wooden gate opens
+1112     ($0458)  1         28.0     32.2   BERSERKER unlatch his gate
+1113     ($0459)  2         28.0     32.2   BERSERKER unlatch his gate
+1114     ($045a)  3         28.0     32.2   BERSERKER unlatch his gate
+1115     ($045b)  1         16.7     19.2   BERSERKER latch his gate again
+1116     ($045c)  2         16.7     19.2   BERSERKER latch his gate again
+1117     ($045d)  3         16.7     19.2   BERSERKER latch his gate again
+
+1120     ($0460)  1        118.9    136.3   EVERGREEN beekeeper death long
+1121     ($0461)  2        118.9    136.3   EVERGREEN beekeeper death long
+1122     ($0462)  3        118.9    136.3   EVERGREEN beekeeper death long
+1123     ($0463)  1         64.0     73.4   EVERGREEN beekeeper death short
+1124     ($0464)  2         64.0     73.4   EVERGREEN beekeeper death short
+1125     ($0465)  3         64.0     73.4   EVERGREEN beekeeper death short
+1126     ($0466)  1        122.6    140.6   BERSERKER yell #0
+1127     ($0467)  2        122.6    140.6   BERSERKER yell #0
+1128     ($0468)  3        122.6    140.6   BERSERKER yell #0
+1129     ($0469)  1         30.6     35.0   BERSERKER grunts as he throws the axe
+1130     ($046a)  2         30.6     35.0   BERSERKER grunts as he throws the axe
+1131     ($046b)  3         30.6     35.0   BERSERKER grunts as he throws the axe
+1132     ($046c)  1         23.0     26.4   BERSERKER damage grunt #0
+1133     ($046d)  2         23.0     26.4   BERSERKER damage grunt #0
+1134     ($046e)  3         23.0     26.4   BERSERKER damage grunt #0
+1135     ($046f)  1         20.1     23.0   BERSERKER damage grunt #1
+1136     ($0470)  2         20.1     23.0   BERSERKER damage grunt #1
+1137     ($0471)  3         20.1     23.0   BERSERKER damage grunt #1
+1138     ($0472)  1         46.9     53.8   BERSERKER death grunt #0
+1139     ($0473)  2         46.9     53.8   BERSERKER death grunt #0
+1140     ($0474)  3         46.9     53.8   BERSERKER death grunt #0
+1141     ($0475)  1         41.4     47.5   BERSERKER death grunt #1
+1142     ($0476)  2         41.4     47.5   BERSERKER death grunt #1
+1143     ($0477)  3         41.4     47.5   BERSERKER death grunt #1
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 16
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1144     ($0478)  1        178.3    204.5   BERSERKER falls from rope
+1145     ($0479)  2        178.3    204.5   BERSERKER falls from rope
+1146     ($047a)  3        178.3    204.5   BERSERKER falls from rope
+1147     ($047b)  1         26.4     30.2   SPEARCHUCKER appears, grunts
+1148     ($047c)  2         26.4     30.2   SPEARCHUCKER appears, grunts
+1149     ($047d)  3         26.4     30.2   SPEARCHUCKER appears, grunts
+1150     ($047e)  1         13.0     14.9   SPEARCHUCKER grunts as he throws spear
+1151     ($047f)  2         13.0     14.9   SPEARCHUCKER grunts as he throws spear
+1152     ($0480)  3         13.0     14.9   SPEARCHUCKER grunts as he throws spear
+1153     ($0481)  1          8.4      9.6   hit CHARLOTTE 's armor w/ a bullet
+1154     ($0482)  2          8.4      9.6   hit CHARLOTTE 's armor w/ a bullet
+1155     ($0483)  3          8.4      9.6   hit CHARLOTTE 's armor w/ a bullet
+1156     ($0484)  1         30.1     34.6   hit CHARLOTTE 's armor w/ a CD
+1157     ($0485)  2         30.1     34.6   hit CHARLOTTE 's armor w/ a CD
+1158     ($0486)  3         30.1     34.6   hit CHARLOTTE 's armor w/ a CD
+1159     ($0487)  1         15.9     18.2   BERSERKER axe whooshes (repeat & scale)
+1160     ($0488)  2         15.9     18.2   BERSERKER axe whooshes (repeat & scale)
+1161     ($0489)  3         15.9     18.2   BERSERKER axe whooshes (repeat & scale)
+1162     ($048a)  1         71.2     81.6   BERSERKER axe hits the screen
+1163     ($048b)  2         71.2     81.6   BERSERKER axe hits the screen
+1164     ($048c)  3         71.2     81.6   BERSERKER axe hits the screen
+1165     ($048d)  1         46.0     52.8   JUNGLE Spear thangggggg
+1166     ($048e)  2         67.0     76.8   JUNGLE Spear thangggggg
+1167     ($048f)  3         67.0     76.8   JUNGLE Spear thangggggg
+1168     ($0490)  1        101.7    116.6   GENERAL launch a flaming CD
+1169     ($0491)  2        101.7    116.6   GENERAL launch a flaming CD
+1170     ($0492)  3        101.7    116.6   GENERAL launch a flaming CD
+
+1180     ($049c)  1         26.4     30.2   EVERGREEN goop splats against screen #0
+1181     ($049d)  2         26.4     30.2   EVERGREEN goop splats against screen #0
+1182     ($049e)  3         26.4     30.2   EVERGREEN goop splats against screen #0
+1183     ($049f)  1         32.6     37.4   EVERGREEN goop splats against screen #1
+1184     ($04a0)  2         32.6     37.4   EVERGREEN goop splats against screen #1
+1185     ($04a1)  3         32.6     37.4   EVERGREEN goop splats against screen #1
+1186     ($04a2)  1         15.9     18.2   EVERGREEN goop splats against screen #2
+1187     ($04a3)  2         15.9     18.2   EVERGREEN goop splats against screen #2
+1188     ($04a4)  3         15.9     18.2   EVERGREEN goop splats against screen #2
+1189     ($04a5)  1         15.9     18.2   EVERGREEN goop splats against screen #3
+1190     ($04a6)  2         15.9     18.2   EVERGREEN goop splats against screen #3
+1191     ($04a7)  3         15.9     18.2   EVERGREEN goop splats against screen #3
+1192     ($04a8)  1        116.4    133.4   EVERGREEN Beekeeper does a T800
+1193     ($04a9)  2        116.4    133.4   EVERGREEN Beekeeper does a T800
+1194     ($04aa)  3        116.4    133.4   EVERGREEN Beekeeper does a T800
+1195     ($04ab)  1         31.8     36.5   player gun
+1196     ($04ac)  2         31.8     36.5   player gun
+1197     ($04ad)  3         31.8     36.5   player gun
+1198     ($04ae)  1         70.7     81.1   cd launch #1 player 1
+1199     ($04af)  2         70.7     81.1   cd launch #1 player 1
+1200     ($04b0)  3         70.7     81.1   cd launch #1 player 1
+1201     ($04b1)  1         82.9     95.0   supergun
+1202     ($04b2)  2         82.9     95.0   supergun
+1203     ($04b3)  3         82.9     95.0   supergun
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 17
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1204     ($04b4)  1         11.3     13.0   SPEARCHUCKER running grunt
+1205     ($04b5)  2         11.3     13.0   SPEARCHUCKER running grunt
+1206     ($04b6)  3         11.3     13.0   SPEARCHUCKER running grunt
+1207     ($04b7)  1         19.7     22.6   SPEARCHUCKER another running grunt
+1208     ($04b8)  2         19.7     22.6   SPEARCHUCKER another running grunt
+1209     ($04b9)  3         19.7     22.6   SPEARCHUCKER another running grunt
+1210     ($04ba)  1         21.8     25.0   SPEARCHUCKER running grunt w/inhale
+1211     ($04bb)  2         21.8     25.0   SPEARCHUCKER running grunt w/inhale
+1212     ($04bc)  3         21.8     25.0   SPEARCHUCKER running grunt w/inhale
+1213     ($04bd)  1         37.3     42.7   SPEARCHUCKER death grunt #0
+1214     ($04be)  2         37.3     42.7   SPEARCHUCKER death grunt #0
+1215     ($04bf)  3         37.3     42.7   SPEARCHUCKER death grunt #0
+1216     ($04c0)  1         33.1     37.9   SPEARCHUCKER death grunt #1
+1217     ($04c1)  2         33.1     37.9   SPEARCHUCKER death grunt #1
+1218     ($04c2)  3         33.1     37.9   SPEARCHUCKER death grunt #1
+1219     ($04c3)  3        161.6    185.3   YELLOWJACKET you've destroyed N.O. prop
+1220     ($04c4)  3         95.4    109.4   YELLOWJACKET you've gone too far
+1221     ($04c5)  3        132.3    151.7   YELLOWJACKET now you must pay w/ your life
+1222     ($04c6)  3         84.1     96.5   YELLOWJACKET you have no choice
+1223     ($04c7)  3         85.0     97.4   YELLOWJACKET you have no future
+1224     ($04c8)  3        126.4    145.0   YELLOWJACKET submit to the N. O.
+1225     ($04c9)  3        103.4    118.6   YELLOWJACKET you cannot destroy me
+1226     ($04ca)  3         69.5     79.7   YELLOWJACKET impudent youth
+1227     ($04cb)  3         69.1     79.2   YELLOWJACKET go to your doom
+1228     ($04cc)  3        100.9    115.7   YELLOWJACKET laugh #0
+1229     ($04cd)  3         64.9     74.4   YELLOWJACKET laugh #1
+1230     ($04ce)  3         26.4     30.2   YELLOWJACKET effort grunt #0
+1231     ($04cf)  3         24.3     27.8   YELLOWJACKET effort grunt #1
+1232     ($04d0)  3         20.9     24.0   YELLOWJACKET effort grunt #2
+1233     ($04d1)  3         31.0     35.5   YELLOWJACKET damage/pain grunt #0
+1234     ($04d2)  3         33.1     37.9   YELLOWJACKET damage/pain grunt #1
+1235     ($04d3)  3         28.9     33.1   YELLOWJACKET damage/pain grunt #2
+1236     ($04d4)  3        285.0    326.9   YELLOWJACKET death (for now)
+1237     ($04d5)  1         31.0     35.5   GENERAL unfiltered pain/damage grunt #0
+1238     ($04d6)  2         31.0     35.5   GENERAL unfiltered pain/damage grunt #0
+1239     ($04d7)  3         31.0     35.5   GENERAL unfiltered pain/damage grunt #0
+1240     ($04d8)  1         28.5     32.6   GENERAL unfiltered pain/damage grunt #1
+1241     ($04d9)  2         28.5     32.6   GENERAL unfiltered pain/damage grunt #1
+1242     ($04da)  3         28.5     32.6   GENERAL unfiltered pain/damage grunt #1
+1243     ($04db)  1         31.4     36.0   GENERAL unfiltered pain/damage grunt #2
+1244     ($04dc)  2         31.4     36.0   GENERAL unfiltered pain/damage grunt #2
+1245     ($04dd)  3         31.4     36.0   GENERAL unfiltered pain/damage grunt #2
+1246     ($04de)  1         26.4     30.2   GENERAL unfiltered pain/damage grunt #3
+1247     ($04df)  2         26.4     30.2   GENERAL unfiltered pain/damage grunt #3
+1248     ($04e0)  3         26.4     30.2   GENERAL unfiltered pain/damage grunt #3
+1249     ($04e1)  1         26.8     30.7   GENERAL unfiltered pain/damage grunt #4
+1250     ($04e2)  2         26.8     30.7   GENERAL unfiltered pain/damage grunt #4
+1251     ($04e3)  3         26.8     30.7   GENERAL unfiltered pain/damage grunt #4
+1252     ($04e4)  3         47.7     54.7   KERRY/SAM thank you
+
+1255     ($04e7)  3         79.9     91.7   KERRY/SAM free at last
+1256     ($04e8)  3         49.0     56.2   KERRY/SAM uh huh
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 18
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1257     ($04e9)  3         69.1     79.2   KERRY/SAM ooo, baby
+1258     ($04ea)  3         82.0     94.1   KERRY/SAM you're good
+1259     ($04eb)  3         80.4     92.2   KERRY/SAM you're the best
+1260     ($04ec)  3         82.9     95.0   KERRY/SAM my hero
+1261     ($04ed)  3         94.2    108.0   KERRY/SAM can I have your autograph
+1262     ($04ee)  3         75.8     86.9   KERRY/SAM it's about time
+1263     ($04ef)  1         20.5     23.5   KERRY/SAM buttsmack oo #0
+1264     ($04f0)  2         20.5     23.5   KERRY/SAM buttsmack oo #0
+1265     ($04f1)  3         20.5     23.5   KERRY/SAM buttsmack oo #0
+1266     ($04f2)  1         23.0     26.4   KERRY/SAM buttsmack oo #1
+1267     ($04f3)  2         23.0     26.4   KERRY/SAM buttsmack oo #1
+1268     ($04f4)  3         23.0     26.4   KERRY/SAM buttsmack oo #1
+1269     ($04f5)  1         31.4     36.0   KERRY/SAM buttsmack oo #2
+1270     ($04f6)  2         31.4     36.0   KERRY/SAM buttsmack oo #2
+1271     ($04f7)  3         31.4     36.0   KERRY/SAM buttsmack oo #2
+1272     ($04f8)  1        125.6    144.0   KERRY/SAM long scream
+1273     ($04f9)  2        125.6    144.0   KERRY/SAM long scream
+1274     ($04fa)  3        125.6    144.0   KERRY/SAM long scream
+1275     ($04fb)  1         36.8     42.2   KERRY/SAM short scream
+1276     ($04fc)  2         36.8     42.2   KERRY/SAM short scream
+1277     ($04fd)  3         36.8     42.2   KERRY/SAM short scream
+1278     ($04fe)  1         89.2    102.2   KERRY/SAM long no
+1279     ($04ff)  2         89.2    102.2   KERRY/SAM long no
+1280     ($0500)  3         89.2    102.2   KERRY/SAM long no
+1281     ($0501)  1         24.7     28.3   KERRY/SAM short no (as in don't shoot)
+1282     ($0502)  2         24.7     28.3   KERRY/SAM short no (as in don't shoot)
+1283     ($0503)  3         24.7     28.3   KERRY/SAM short no (as in don't shoot)
+1284     ($0504)  3            -        -   KERRY/SAM mmMMmmMMmmMM (endless)
+1285     ($0505)  3         35.2     40.3   HELGA get them!
+1286     ($0506)  3        193.0    221.3   HELGA stop this ... deal with me
+1287     ($0507)  1         14.6     16.8   POWERUP award a gun clip
+1288     ($0508)  2         14.6     16.8   POWERUP award a gun clip
+1289     ($0509)  3         14.6     16.8   POWERUP award a gun clip
+
+1305     ($0519)  1        137.7    157.9   POWERUP award supergun
+1306     ($051a)  2        137.7    157.9   POWERUP award supergun
+1307     ($051b)  3        137.7    157.9   POWERUP award supergun
+1308     ($051c)  1        214.7    246.2   POWERUP award flaming CD
+1309     ($051d)  2        214.7    246.2   POWERUP award flaming CD
+1310     ($051e)  3        214.7    246.2   POWERUP award flaming CD
+1311     ($051f)  1         40.6     46.6   MONDOR: ow!! (was 641)
+1312     ($0520)  2         40.6     46.6   MONDOR: ow!! (was 641)
+1313     ($0521)  3         40.6     46.6   MONDOR: ow!! (was 641)
+1314     ($0522)  1         25.5     29.3   MONDOR: ooh! (was 642)
+1315     ($0523)  2         25.5     29.3   MONDOR: ooh! (was 642)
+1316     ($0524)  3         25.5     29.3   MONDOR: ooh! (was 642)
+1317     ($0525)  1         21.8     25.0   MONDOR: damage #0 (was 659)
+1318     ($0526)  2         21.8     25.0   MONDOR: damage #0 (was 659)
+1319     ($0527)  3         21.8     25.0   MONDOR: damage #0 (was 659)
+1320     ($0528)  1         29.3     33.6   MONDOR: damage #2 (was 661)
+1321     ($0529)  2         29.3     33.6   MONDOR: damage #2 (was 661)
+1322     ($052a)  3         29.3     33.6   MONDOR: damage #2 (was 661)
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 19
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1323     ($052b)  1         40.2     46.1   MONDOR: damage #3 (was 662)
+1324     ($052c)  2         40.2     46.1   MONDOR: damage #3 (was 662)
+1325     ($052d)  3         40.2     46.1   MONDOR: damage #3 (was 662)
+1326     ($052e)  1         29.7     34.1   MONDOR: damage #4 (was 663)
+1327     ($052f)  2         29.7     34.1   MONDOR: damage #4 (was 663)
+1328     ($0530)  3         29.7     34.1   MONDOR: damage #4 (was 663)
+1329     ($0531)  1         47.7     54.7   KERRY/SAM thank you (was 1252)
+1330     ($0532)  2         47.7     54.7   KERRY/SAM thank you (was 1252)
+1331     ($0533)  3         47.7     54.7   KERRY/SAM thank you (was 1252)
+
+1338     ($053a)  1         79.9     91.7   KERRY/SAM free at last (was 1255)
+1339     ($053b)  2         79.9     91.7   KERRY/SAM free at last (was 1255)
+1340     ($053c)  3         79.9     91.7   KERRY/SAM free at last (was 1255)
+1341     ($053d)  1         49.0     56.2   KERRY/SAM uh huh (was 1256)
+1342     ($053e)  2         49.0     56.2   KERRY/SAM uh huh (was 1256)
+1343     ($053f)  3         49.0     56.2   KERRY/SAM uh huh (was 1256)
+1344     ($0540)  1         69.1     79.2   KERRY/SAM ooo, baby (was 1257)
+1345     ($0541)  2         69.1     79.2   KERRY/SAM ooo, baby (was 1257)
+1346     ($0542)  3         69.1     79.2   KERRY/SAM ooo, baby (was 1257)
+1347     ($0543)  1         82.0     94.1   KERRY/SAM you're good (was 1258)
+1348     ($0544)  2         82.0     94.1   KERRY/SAM you're good (was 1258)
+1349     ($0545)  3         82.0     94.1   KERRY/SAM you're good (was 1258)
+1350     ($0546)  1         80.4     92.2   KERRY/SAM you're the best (was 1259)
+1351     ($0547)  2         80.4     92.2   KERRY/SAM you're the best (was 1259)
+1352     ($0548)  3         80.4     92.2   KERRY/SAM you're the best (was 1259)
+1353     ($0549)  1         82.9     95.0   KERRY/SAM my hero (was 1260)
+1354     ($054a)  2         82.9     95.0   KERRY/SAM my hero (was 1260)
+1355     ($054b)  3         82.9     95.0   KERRY/SAM my hero (was 1260)
+1356     ($054c)  1         94.2    108.0   KERRY/SAM ... autograph (was 1261)
+1357     ($054d)  2         94.2    108.0   KERRY/SAM ... autograph (was 1261)
+1358     ($054e)  3         94.2    108.0   KERRY/SAM ... autograph (was 1261)
+1359     ($054f)  1         75.8     86.9   KERRY/SAM it's about time (was 1262)
+1360     ($0550)  2         75.8     86.9   KERRY/SAM it's about time (was 1262)
+1361     ($0551)  3         75.8     86.9   KERRY/SAM it's about time (was 1262)
+1362     ($0552)  3            -        -   BUS CHASE start the bus & run (endless)
+1363     ($0553)  3            -        -   BUS CHASE restore the bus (endless)
+1364     ($0554)  2         85.4     97.9   BUS CHASE slow the bus (skid) (ducks bus)
+1365     ($0555)  3        248.2    284.6   CHARLOTTE BATTLE rope bridge falls
+1366     ($0556)  1        162.4    186.2   FANFARE Charlotte dies
+
+1370     ($055a)  1        238.6    273.6   POWERUP new award energy
+1371     ($055b)  2        238.6    273.6   POWERUP new award energy
+1372     ($055c)  3        238.6    273.6   POWERUP new award energy
+1373     ($055d)  1        132.3    151.7   POWERUP award shield
+1374     ($055e)  2        132.3    151.7   POWERUP award shield
+1375     ($055f)  3        132.3    151.7   POWERUP award shield
+
+1382     ($0566)  1        187.5    215.0   EVERGREEN Kerry morphs into beekeeper #0
+1383     ($0567)  2        187.5    215.0   EVERGREEN Kerry morphs into beekeeper #0
+1384     ($0568)  3        187.5    215.0   EVERGREEN Kerry morphs into beekeeper #0
+1385     ($0569)  1        179.1    205.4   EVERGREEN Kerry morphs into beekeeper #1
+1386     ($056a)  2        179.1    205.4   EVERGREEN Kerry morphs into beekeeper #1
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 20
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1387     ($056b)  3        179.1    205.4   EVERGREEN Kerry morphs into beekeeper #1
+1388     ($056c)  3         92.1    105.6   HELGA triumphant laugh
+1389     ($056d)  3         69.1     79.2   HELGA had enough?
+1390     ($056e)  3        108.0    123.8   HELGA you can't harm the headmistress
+1391     ($056f)  3        111.8    128.2   HELGA you've been a bad boy
+1392     ($0570)  3         80.4     92.2   HELGA irresponsible -- 
+1393     ($0571)  3         69.9     80.2   HELGA scatterbrained --
+1394     ($0572)  3         69.1     79.2   HELGA undisciplined --
+1395     ($0573)  3         36.8     42.2   HELGA brat!
+1396     ($0574)  3         43.9     50.4   HELGA brats!
+1397     ($0575)  3         78.7     90.2   HELGA how dare you?
+1398     ($0576)  3        137.3    157.4   HELGA you ain't seen nothing yet
+1399     ($0577)  1         17.2     19.7   HELGA effort grunt #0
+1400     ($0578)  2         17.2     19.7   HELGA effort grunt #0
+1401     ($0579)  3         17.2     19.7   HELGA effort grunt #0
+1402     ($057a)  1         16.7     19.2   HELGA effort grunt #1
+1403     ($057b)  2         16.7     19.2   HELGA effort grunt #1
+1404     ($057c)  3         16.7     19.2   HELGA effort grunt #1
+1405     ($057d)  1         16.3     18.7   HELGA effort grunt #2
+1406     ($057e)  2         16.3     18.7   HELGA effort grunt #2
+1407     ($057f)  3         16.3     18.7   HELGA effort grunt #2
+1408     ($0580)  1         19.3     22.1   HELGA small damage
+1409     ($0581)  2         19.3     22.1   HELGA small damage
+1410     ($0582)  3         19.3     22.1   HELGA small damage
+1411     ($0583)  1         43.5     49.9   HELGA medium damage #0
+1412     ($0584)  2         43.5     49.9   HELGA medium damage #0
+1413     ($0585)  3         43.5     49.9   HELGA medium damage #0
+1414     ($0586)  1         31.8     36.5   HELGA medium damage #1
+1415     ($0587)  2         31.8     36.5   HELGA medium damage #1
+1416     ($0588)  3         31.8     36.5   HELGA medium damage #1
+1417     ($0589)  1         16.7     19.2   NINJA effort grunt #0
+1418     ($058a)  2         16.7     19.2   NINJA effort grunt #0
+1419     ($058b)  3         16.7     19.2   NINJA effort grunt #0
+1420     ($058c)  1         12.1     13.9   NINJA effort grunt #2
+1421     ($058d)  2         12.1     13.9   NINJA effort grunt #2
+1422     ($058e)  3         12.1     13.9   NINJA effort grunt #2
+1423     ($058f)  1         23.9     27.4   NINJA damage grunt #0
+1424     ($0590)  2         23.9     27.4   NINJA damage grunt #0
+1425     ($0591)  3         23.9     27.4   NINJA damage grunt #0
+1426     ($0592)  1         23.0     26.4   NINJA damage grunt #1
+1427     ($0593)  2         23.0     26.4   NINJA damage grunt #1
+1428     ($0594)  3         23.0     26.4   NINJA damage grunt #1
+1429     ($0595)  1         30.6     35.0   NINJA pain scream (short)
+1430     ($0596)  2         30.6     35.0   NINJA pain scream (short)
+1431     ($0597)  3         30.6     35.0   NINJA pain scream (short)
+1432     ($0598)  1        197.1    226.1   NINJA fall to oblivion
+1433     ($0599)  2        197.1    226.1   NINJA fall to oblivion
+1434     ($059a)  3        197.1    226.1   NINJA fall to oblivion
+1435     ($059b)  2        187.5    215.0   CHARLOTTE fall to oblivion
+1436     ($059c)  3         92.9    106.6   HELGA I will destroy you
+1437     ($059d)  3         81.2     93.1   HELGA you will obey
+1438     ($059e)  1        231.0    265.0   MINI - TRUCK / FORKLIFT
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 21
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+1439     ($059f)  2        231.0    265.0   MINI - TRUCK / FORKLIFT
+1440     ($05a0)  3        231.0    265.0   MINI - TRUCK / FORKLIFT
+
+2048     ($0800)  3         62.4     71.5   STEVEN wha-wha-hey!
+2049     ($0801)  3         35.2     40.3   STEVEN no #0
+2050     ($0802)  3         33.9     38.9   STEVEN no #1
+2051     ($0803)  3         67.0     76.8   STEVEN no #2
+2052     ($0804)  3         23.0     26.4   STEVEN no #3
+2053     ($0805)  3         60.3     69.1   STEVEN woah!!
+2054     ($0806)  3         22.6     25.9   STEVEN look out
+2055     ($0807)  3         56.5     64.8   STEVEN incoming (short)
+2056     ($0808)  3         89.2    102.2   STEVEN incoming (long)
+2057     ($0809)  3         62.4     71.5   STEVEN we're outta here
+2058     ($080a)  2         41.0     47.0   STEVEN let's go (composite)
+2059     ($080b)  3         26.8     30.7   STEVEN hurry
+2060     ($080c)  3         59.0     67.7   STEVEN time to go
+2061     ($080d)  3         46.5     53.3   STEVEN right now
+2062     ($080e)  3         26.8     30.7   STEVEN go
+2063     ($080f)  3         26.4     30.2   STEVEN run
+2064     ($0810)  3         45.2     51.8   STEVEN get out #0
+2065     ($0811)  3         30.1     34.6   STEVEN get out #1
+2066     ($0812)  3         69.1     79.2   STEVEN good shot
+2067     ($0813)  3         67.8     77.8   STEVEN nice shot
+2068     ($0814)  3         61.9     71.0   STEVEN great shot
+2069     ($0815)  1         41.0     47.0   STEVEN yess (now on track 1)
+2070     ($0816)  3         54.8     62.9   STEVEN yeah
+2071     ($0817)  3         58.6     67.2   STEVEN way to go
+2072     ($0818)  3         41.4     47.5   STEVEN awesome
+2073     ($0819)  3         33.9     38.9   STEVEN excellent
+2074     ($081a)  3         56.5     64.8   STEVEN allright
+2075     ($081b)  3         79.9     91.7   STEVEN rock & roll
+2076     ($081c)  3        128.1    146.9   STEVEN g-g-g-g-gaow!!! (wild)
+2077     ($081d)  3         53.2     61.0   STEVEN kick-ass
+2078     ($081e)  3         61.9     71.0   STEVEN don't stop now
+2079     ($081f)  3         66.6     76.3   STEVEN don't give up
+2080     ($0820)  3         59.4     68.2   STEVEN you're doing great
+
+2082     ($0822)  3         56.5     64.8   STEVEN keep it up
+2083     ($0823)  3         48.1     55.2   STEVEN toasty
+2084     ($0824)  3         81.2     93.1   STEVEN s171saa kick sequence
+2085     ($0825)  3         83.7     96.0   STEVEN s201saa hey-hey-hey-hey!
+2086     ($0826)  3        116.4    133.4   STEVEN ahooa!
+
+2088     ($0828)  3        251.1    288.0   STEVEN s261sae cmon in...wings...welcome...
+2089     ($0829)  3        118.5    135.8   STEVEN this is the real pleasure dome
+2090     ($082a)  3        254.5    291.8   STEVEN s281sac damage...A style
+2091     ($082b)  3        169.9    194.9   STEVEN s441saa watching this...taken over
+2092     ($082c)  3        203.0    232.8   STEVEN s451saa up to you...car...stop N.O.
+2093     ($082d)  3        149.8    171.8   STEVEN s461sac remember...music is a weapon
+2094     ($082e)  3        254.5    291.8   STEVEN s471sab made it...where...up to you
+2095     ($082f)  3        118.5    135.8   STEVEN s581sac revolution...Xssss
+2096     ($0830)  3         61.1     70.1   JOE j263saa hands off man
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 22
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+2097     ($0831)  3        182.1    208.8   JOE j321sab maggots...chemicals in food
+2098     ($0832)  3        171.6    196.8   JOE j331saa squash 'em like bugs
+2099     ($0833)  3        100.9    115.7   JOEY k143saa hey -- going my way?
+2100     ($0834)  3         95.0    109.0   JOEY k411sab education...stop the N.O. bus
+2101     ($0835)  3         47.7     54.7   JOEY k421saa school's out
+
+2103     ($0837)  3         38.1     43.7   TOM t071sac no!
+2104     ($0838)  3         49.0     56.2   TOM t091sab woah!
+2105     ($0839)  3         46.0     52.8   TOM t101sab yeah!
+2106     ($083a)  3         49.4     56.6   TOM t111saa c'mon
+2107     ($083b)  3         50.2     57.6   TOM t121sab allright
+2108     ($083c)  3         58.6     67.2   TOM t203sab hey, back off
+
+2110     ($083e)  3         73.7     84.5   TOM t241sab tear down the wall
+2111     ($083f)  3         17.2     19.7   BRAD b081saa what the f
+2112     ($0840)  3         67.0     76.8   BRAD (maybe b125_ac) yeah
+2113     ($0841)  3         60.7     69.6   BRAD b161sac aaay!! (bathroom)
+
+2115     ($0843)  3        191.3    219.4   BRAD b241saa destroy kemmitech...N.O.
+2116     ($0844)  3         54.4     62.4   JOEY wha - wha - hey!
+2117     ($0845)  1         91.2    104.6   STEVEN now you got protection
+2118     ($0846)  2         91.2    104.6   STEVEN now you got protection
+2119     ($0847)  3         91.2    104.6   STEVEN now you got protection
+2120     ($0848)  1         52.3     60.0   STEVEN fired up
+2121     ($0849)  2         52.3     60.0   STEVEN fired up
+2122     ($084a)  3         52.3     60.0   STEVEN fired up
+2123     ($084b)  1         97.9    112.3   STEVEN burn, baby, burn
+2124     ($084c)  2         97.9    112.3   STEVEN burn, baby, burn
+2125     ($084d)  3         97.9    112.3   STEVEN burn, baby, burn
+2126     ($084e)  1         73.2     84.0   STEVEN bang bang
+2127     ($084f)  2         73.2     84.0   STEVEN bang bang
+2128     ($0850)  3         73.2     84.0   STEVEN bang bang
+2129     ($0851)  1         67.8     77.8   STEVEN ka blamo
+2130     ($0852)  2         67.8     77.8   STEVEN ka blamo
+2131     ($0853)  3         67.8     77.8   STEVEN ka blamo
+2132     ($0854)  1         75.8     86.9   STEVEN still goin...
+2133     ($0855)  2         75.8     86.9   STEVEN still goin...
+2134     ($0856)  3         75.8     86.9   STEVEN still goin...
+2135     ($0857)  1         67.4     77.3   STEVEN I feel good
+2136     ($0858)  2         67.4     77.3   STEVEN I feel good
+2137     ($0859)  3         67.4     77.3   STEVEN I feel good
+2138     ($085a)  1         98.4    112.8   STEVEN thats powerful stuff
+2139     ($085b)  2         98.4    112.8   STEVEN thats powerful stuff
+2140     ($085c)  3         98.4    112.8   STEVEN thats powerful stuff
+2141     ($085d)  1         64.9     74.4   STEVEN bonus track
+2142     ($085e)  2         64.9     74.4   STEVEN bonus track
+2143     ($085f)  3         64.9     74.4   STEVEN bonus track
+2144     ($0860)  1         67.8     77.8   STEVEN play it again
+2145     ($0861)  2         67.8     77.8   STEVEN play it again
+2146     ($0862)  3         67.8     77.8   STEVEN play it again
+2147     ($0863)  1         81.2     93.1   STEVEN hey -- where you goin
+2148     ($0864)  2         81.2     93.1   STEVEN hey -- where you goin
+ 
+Generation X Video (c) 1993 Williams Electronics G (08/02/94 18:05:22) page 23
+
+
+Sound Call Table (continued)
+
+Decimal  Hex      Track  Video    Pinball   Description
+-------  -------  -----  -------  -------   -----------
+2149     ($0865)  3         81.2     93.1   STEVEN hey -- where you goin
+2150     ($0866)  1         92.1    105.6   STEVEN hey -- get a load of this
+2151     ($0867)  2         92.1    105.6   STEVEN hey -- get a load of this
+2152     ($0868)  3         92.1    105.6   STEVEN hey -- get a load of this
+2153     ($0869)  1         61.1     70.1   STEVEN give em some of this
+2154     ($086a)  2         61.1     70.1   STEVEN give em some of this
+2155     ($086b)  3         61.1     70.1   STEVEN give em some of this
+2156     ($086c)  1         56.5     64.8   STEVEN cooo -- wel!
+2157     ($086d)  2         56.5     64.8   STEVEN cooo -- wel!
+2158     ($086e)  3         56.5     64.8   STEVEN cooo -- wel!
+2159     ($086f)  1         46.9     53.8   STEVEN you de man
+2160     ($0870)  2         46.9     53.8   STEVEN you de man
+2161     ($0871)  3         46.9     53.8   STEVEN you de man
+2162     ($0872)  1        129.8    148.8   STEVEN hey baby -- ka blam!
+2163     ($0873)  2        129.8    148.8   STEVEN hey baby -- ka blam!
+2164     ($0874)  3        129.8    148.8   STEVEN hey baby -- ka blam!
+2165     ($0875)  1        213.9    245.3   STEVEN youuuuuuuuuuuuuuidiot
+2166     ($0876)  2        213.9    245.3   STEVEN youuuuuuuuuuuuuuidiot
+2167     ($0877)  3        213.9    245.3   STEVEN youuuuuuuuuuuuuuidiot
+2168     ($0878)  1        139.8    160.3   STEVEN no glove no luv, baby...
+2169     ($0879)  2        139.8    160.3   STEVEN no glove no luv, baby...
+2170     ($087a)  3        139.8    160.3   STEVEN no glove no luv, baby...
+
+Total 1113 Sound Calls
+
